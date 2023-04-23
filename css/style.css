@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin:0;
+    height: 100%;;
+}
+.traffic-route{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.vertical-road{
+    background-color: black;
+    width:5em;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position:absolute;
+    right:50%;
+    flex-direction: column;
+}
+.horizontal-road{
+    display: flex;
+    background-color: black;
+    width:100%;
+    height:5em;
+    align-items: center;
+}
+.vertical-white-strips{
+    background-color:white;
+    width:0.5em;
+    height:2em;
+    margin:1em 0;
+    flex-direction: row;
+}
+.horizontal-white-strips{
+    background-color:white;
+    width:2em;
+    height:0.5em;
+    margin:0 1em;
+}
+.horizontal-zebra-strip{
+    background-color:white;
+    width:4em;
+    height: 0.2em;
+    margin-top:0.3em;
+}
+.vertical-zebra-strip{
+    background-color:white;
+    width:0.2em;
+    height:3em;
+    margin-left:0.3em;
+    flex-direction: row;
+}
+.intersection{
+    /* background-color: red; */
+    height:6.3em;
+    width:6.3em;
+}
+.vertical-zebra-crossing1{
+    background-color:black;
+    width:5em;
+    flex-direction:row;
+    height:3em;
+    display: flex;
+    position: absolute;
+    bottom:55%; 
+}
+.vertical-zebra-crossing2{
+    background-color:black;
+    width:5em;
+    flex-direction:row;
+    height:3em;
+    display: flex;
+    position: absolute;
+    bottom:40%; 
+}
+.vertical-intersection{
+    width:5em;
+    background-color: black;
+    position: absolute;
+    height: 6em;
+    bottom:45%;
+}
+.red-light{
+    background-color: grey;
+    width: 1em;
+    height: 1em;
+    margin:5px auto;
+    border-radius: 50%;
+}
+.green-light{
+    background-color:grey;
+    width: 1em;
+    height: 1em;
+    margin:5px auto;
+    border-radius: 50%;
+    box-shadow:light;
+}
+.yellow-light{
+    background-color: grey;
+    width: 1em;
+    height: 1em;
+    margin:5px auto;
+    border-radius: 50%;
+}
+.traffic-signal1{
+    background-color:black;
+    width: 2em;
+    height:5em;
+    padding:0.2em;
+    display: block;
+    position:absolute;
+    left: 38.2%;
+    top:58%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.traffic-pole1{
+    width:0.5em;
+    background-color:black;
+    height:2.5em;
+    position:absolute;
+    left: 39%;
+    top:54%;
+}
+.timer1{
+    width:1em;
+    height:1em;
+    position:absolute;
+    left:35.5%;
+    top:64%;
+    background-color: #e4e4e4;
+    font-size:1.5em;
+    padding:0.2em;
+    border: 2px solid black;
+}
+.traffic-pole3{
+    width:0.5em;
+    background-color:black;
+    height:2.5em;
+    position:absolute;
+    left:55.8%;
+    top:41%;
+}
+.timer3{
+    width:1em;
+    height:1em;
+    position:absolute;
+    left:57.8%;
+    top:32%;
+    background-color: #e4e4e4;
+    font-size:1.5em;
+    padding:0.2em;
+    border: 2px solid black;
+}
+.traffic-signal3{
+    background-color:black;
+    width: 2em;
+    height:4.2em;
+    padding:0.2em;
+    display: block;
+    position:absolute;
+    left: 55%;
+    top:32%;
+}
+.traffic-pole4{
+    width:2.5em;
+    background-color:black;
+    height:0.5em;
+    position:absolute;
+    left:49.5%;
+    top:64%;
+}
+.timer4{
+    width:1em;
+    height:1em;
+    position:absolute;
+    left:57.2%;
+    top:62.6%;
+    background-color: #e4e4e4;
+    font-size:1.5em;
+    padding:0.2em;
+    border: 2px solid black;
+}
+.traffic-signal4{
+    background-color:black;
+    width:4.2em;
+    height:1.6em;
+    padding:0.2em;
+    display: block;
+    position:absolute;
+    display: flex;
+    left: 52%;
+    top:62.8%;
+}
+.traffic-pole2{
+    width:2.5em;
+    background-color:black;
+    height:0.5em;
+    position:absolute;
+    left:42.5%;
+    top:31%;
+}
+.timer2{
+    width:1em;
+    height:1em;
+    position:absolute;
+    left:35%;
+    top:29.2%;
+    background-color: #e4e4e4;
+    font-size:1.5em;
+    padding:0.2em;
+    border: 2px solid black;
+}
+.traffic-signal2{
+    background-color:black;
+    width:4.2em;
+    height:1.6em;
+    padding:0.2em;
+    display: block;
+    position:absolute;
+    display: flex;
+    left:38%;
+    top:29.6%;
+}
+/* .vertical-zebra-crossing{
+    width:5em;
+    background-color: red;
+    height: 5em;
+    display: flex;
+} */
